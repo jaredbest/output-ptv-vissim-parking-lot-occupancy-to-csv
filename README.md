@@ -6,11 +6,6 @@ This repo contains a [PTV Vissim](https://www.ptvgroup.com/en/solutions/products
 
 Note: To use this script, you must have Python installed as well as the [pandas](https://pandas.pydata.org/) package.
 
-<scripts>
-		<script fromTime="0" funcName="initialize" name="" no="1" period="1" runType="AFTSIMSTART" scope="SIMULATIONRUN" scriptFile="output-parking-lot-occupancy.py" toTime="INF"/>
-		<script fromTime="0" funcName="main" name="" no="2" period="10" runType="ATTMSTEPSTART" scope="SIMULATIONRUN" scriptFile="output-parking-lot-occupancy.py" toTime="INF"/>
-</scripts>
-
 ---
 
 ### Supported PTV Vissim versions
@@ -25,23 +20,25 @@ Note: To use this script, you must have Python installed as well as the [pandas]
 1. With your network open in PTV Vissim, open the Scripts list.
 
 2. Create an entry in the Scripts list with the following attributes:
-   fromTime="0"
-   funcName="initialize"
-   name=""
-   no="1"
-   period="1"
-   runType="AFTSIMSTART"
-   scope="SIMULATIONRUN"
-   scriptFile="output-parking-lot-occupancy.py"
-   toTime="INF"
+
+   - fromTime="0"
+   - funcName="initialize"
+   - name=""
+   - no="1"
+   - period="1"
+   - runType="AFTSIMSTART"
+   - scope="SIMULATIONRUN"
+   - scriptFile="output-parking-lot-occupancy.py"
+   - toTime="INF"
 
 3. Create another entry in the Scripts list with the following attributes:
-   fromTime="0"
-   funcName="main"
-   name=""
-   no="2"
-   period="10"
-   runType="ATTMSTEPSTART"
-   scope="SIMULATIONRUN"
-   scriptFile="output-parking-lot-occupancy.py"
-   toTime="INF"
+
+   - fromTime="0"
+   - funcName="main"
+   - name=""
+   - no="2"
+   - period="10"
+   - runType="ATTMSTEPSTART"
+   - scope="SIMULATIONRUN"
+   - scriptFile="output-parking-lot-occupancy.py"
+   - toTime="INF"
