@@ -17,7 +17,7 @@ Note: To use this script, you must have Python installed as well as the [pandas]
 
 ## Instructions
 
-1. With your network open in PTV Vissim, open the Scripts list.
+1. With a network open in PTV Vissim, open the Scripts list.
 
 2. Create an entry in the Scripts list with the following attributes:
 
