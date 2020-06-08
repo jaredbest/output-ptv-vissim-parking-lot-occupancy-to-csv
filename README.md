@@ -42,3 +42,5 @@ Note: To use this script, you must have Python installed as well as the [pandas]
    - scope="SIMULATIONRUN"
    - scriptFile="output-parking-lot-occupancy.py"
    - toTime="INF"
+
+4. Run a simulation. Once the simulation has started, a CSV file is created for each parking lot in the network.
